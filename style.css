@@ -128,11 +128,12 @@ span {
   font-family: "Noto Sans", sans-serif;
   align-self: center;
   opacity: 0.93;
-  width: 99.4%;
+  width: 99.2%;
   height: 42%;
   grid-area: 3/ 2/ 4/ 3;
   z-index: 18;
   background-color: grey;
+  display: none;
 }
 #X {
   font-size: calc(11.5px + 0.7vw);
@@ -241,7 +242,7 @@ span {
 #overlay {
   position: fixed;
   display: none;
-  width: 100%;
+  width: 95%;
   height: 100%;
   top: 0;
   left: 0;

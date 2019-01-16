@@ -828,9 +828,11 @@ function overlayOn(element, otherElement, message, delay) {
   redo.innerHTML = message;
   var delayplusone = delay + 2000;
   setTimeout(function() {
+    redo.style.display = "grid";
     redo.style.zIndex = 20;
   }, delay);
   setTimeout(function() {
+    redo.style.display = "none";
     redo.style.zIndex = 18;
   }, delayplusone);
 }
