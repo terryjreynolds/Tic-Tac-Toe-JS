@@ -834,6 +834,9 @@ function overlayOn(element, otherElement, message, delay) {
   setTimeout(function() {
     redo.style.display = "none";
     redo.style.zIndex = 18;
+    setTimeout(function() {
+      redo.style.display = "grid";
+    }, delay);
   }, delayplusone);
 }
 
