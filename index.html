@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic Tac Toe: Terry Reynolds</title>
+    <!-- Tic Tac Toe: built for an advanced project with FreeCodeCamp. You can sometimes win with level one because it uses heuristic logic for computer moves, but you can never beat Level 2 because the computer is using the minimax algorithm to plan its moves. You can at best expect a draw in Level 2. I had to study a lot about data tree structure and relied heavily on Ahmad Abdolsaheb for his awesome FCC article on recursion and the minimax algorithm. Thank you, Ahmad-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Tic Tac Toe game built by Terry Reynolds as a FreeCodeCamp project"
+    />
+    <meta
+      name="keywords"
+      content="Tic Tac Toe, game, FreeCodeCamp, Terry Reynolds, minimax"
+    />
+    <meta name="author" content="Terry Reynolds" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script
+    href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+  ></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <body>
+    <div class="wrapper" id="wrapper_one">
+      <div id="overlay"><div id="text"></div></div>
+
+      <div class="divgamename">
+        TicTacToe<span id="levelindicator"> 1</span>
+      </div>
+      <div class="divscoreboard" id="scoreboard">Player: 0 Comp: 0</div>
+      <div class="divreset" id="reset_text">Reset Game</div>
+      <div class="div0" class="action" id="div_0"></div>
+      <div class="div1" class="action" id="div_1"></div>
+      <div class="div2" class="action" id="div_2"></div>
+      <div class="div3" class="action" id="div_3"></div>
+      <div class="div4" id="div_4">
+        Choose <span id="X">X</span> or <span id="O">O</span>
+      </div>
+      <div class="divblot" id="div_blot"></div>
+      <div class="div5" class="action" id="div_5"></div>
+      <div class="div6" class="action" id="div_6"></div>
+      <div class="div7" class="action" id="div_7"></div>
+      <div class="div8" class="action" id="div_8"></div>
+
+      <div class="div13" id="footer_link" target="_blank">
+        Tic Tac Toe designed and coded by Terry Reynolds, 2018.
+      </div>
+    </div>
+
+    <div id="level_overlay">
+      <h1 id="title_one">Let's Play</h1>
+      <h1 id="title">Tic Tac Toe!</h1>
+      <div class="overlaytext" id="overlay_text">
+        Level <span id="text_one">1</span> or <span id="text_two">2</span> ?
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
