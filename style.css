@@ -133,7 +133,7 @@ span {
   grid-area: 3/ 2/ 4/ 3;
   z-index: 18;
   background-color: grey;
-  display: none;
+  display: grid;
 }
 #X {
   font-size: calc(11.5px + 0.7vw);
