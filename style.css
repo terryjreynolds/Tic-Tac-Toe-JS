@@ -220,7 +220,6 @@ span {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-area: "footer";
-  cursor: pointer;
 }
 @keyframes flashcell {
   0% {
