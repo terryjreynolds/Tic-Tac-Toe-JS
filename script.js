@@ -690,11 +690,6 @@ function changeWhosTurn() {
   }
 }
 
-//footer link
-var footer = document.getElementById("footer_link");
-footer.onclick = function() {
-  window.open("https://codepen.io/beowulfskin/full/jmEyjv/");
-};
 //adjust the scoreboard
 function scoreboard() {
   document.getElementById("scoreboard").innerHTML =
